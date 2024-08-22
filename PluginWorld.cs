@@ -1,10 +1,11 @@
-﻿namespace PluginWorld
+﻿//namespace PluginWorld.wit.exports.wasmio.samples;
+
+namespace PluginWorld;
+
+public class PluginWorldImpl : IPluginWorld
 {
-    public class PluginWorldImpl : IPluginWorld
+    public static string Transform(string input)
     {
-        public static string Transform(string input)
-        {
-            return input.ToUpperInvariant();
-        }
+        return input.ToUpperInvariant();
     }
 }

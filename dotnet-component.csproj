@@ -9,11 +9,11 @@
 	<UseAppHost>false</UseAppHost>
 	<PublishTrimmed>true</PublishTrimmed>
 	<InvariantGlobalization>true</InvariantGlobalization>
+	<IlcExportUnmanagedEntrypoints>true</IlcExportUnmanagedEntrypoints>
   </PropertyGroup>
 
 	<ItemGroup>
-		<PackageReference Include="ByteCodeAlliance.Componentize.DotNet.Wasm.SDK" Version="0.1.0-preview00003" />
-		<Wit Update="world.wit" World="computer" />
+		<PackageReference Include="ByteCodeAlliance.Componentize.DotNet.Wasm.SDK" Version="0.2.0-preview00004" />
 		<Wit Update="world.wit" World="plugin" />
 	</ItemGroup>
 
